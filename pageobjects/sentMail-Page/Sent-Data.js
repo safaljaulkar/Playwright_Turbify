@@ -6,8 +6,8 @@ class SentData {
     constructor(page) {
         this.page = page;
 
-         //this.punchInMail = "Punch-In Time: 16 July 2025, 10:30 AM";
-       this.punchOutMail = "Punch-Out Time: 22 July 2025, 8:05 PM";
+         //this.punchInMail = "Punch-In Time: 08 Augudt 2025, 10:30 AM";
+       this.punchOutMail = "Punch-Out Time: 07 August  2025, 8:05 PM";
 
     }
 }

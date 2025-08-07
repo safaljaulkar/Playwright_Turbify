@@ -15,7 +15,7 @@ class SentAction {
         await this.sentLocator.locReplyAllButton.click();
       //  await this.sentLocator.locReplyAllMessage.type(punchInMail);
         await this.sentLocator.locReplyAllMessage.type(punchOutMail);
-       await this.sentLocator.locReplySendButton.click();
+      // await this.sentLocator.locReplySendButton.click();
 
 
 
