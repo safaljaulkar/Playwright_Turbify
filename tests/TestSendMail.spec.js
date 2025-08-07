@@ -2,8 +2,8 @@ import { test, expect } from '@playwright/test';
 
 const { LoginAction } = require('../pageobjects/login-page/Login-Action');
 const { LoginData } = require('../pageobjects/login-page/Login-Data');
-const { SentAction } = require('../pageobjects/sentMail-Page/Sent-Action');
-const { SentData } = require('../pageobjects/sentMail-Page/Sent-Data')
+const {SentAction}= require('../pageobjects/sentMail-Page/Sent-Action')
+const { SentData } = require ('../pageobjects/sentMail-Page/Sent-Data')
 
 test('@Safal Verify Sent Mail functionality', async ({ page }) => {
 
